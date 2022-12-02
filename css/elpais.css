@@ -1,0 +1,6 @@
+.contenido-exclusivo-nota box-ui{
+  display:none !important;
+}
+article.article .content-modules{
+  display: block !important;
+}

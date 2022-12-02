@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "NewsUy",
+	"description": "Chrome extension to view premium news in uruguayan portals.",
+	"version": "1.0",
+	"author": "sebas-pena",
+	"icons": {
+		"16": "./icon/icon16.png",
+		"32": "./icon/icon32.png",
+		"48": "./icon/icon48.png",
+		"128": "./icon/icon128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://www.elpais.com.uy/*"],
+			"css": ["./css/elpais.css"]
+		},
+		{
+			"matches": ["https://www.elobservador.com.uy/nota/*"],
+			"css": ["./css/elobservador.css"],
+			"js": ["./js/elobservador.js"]
+		}
+	]
+}

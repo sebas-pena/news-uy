@@ -1,0 +1,13 @@
+*[itemprop="articleBody"]{
+  max-height: max-content !important;
+}
+.cuerpo-nota2{
+  border-bottom: 2px solid #f77b27;
+  padding-bottom: 30px;
+}
+.fade::before{
+  display:none !important;
+}
+.contenedor__publicidad{
+  display: none !important;
+}
